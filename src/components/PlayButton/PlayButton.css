@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+.play-button-sec {
+  background-color: #1e1e1e;
+  padding: 20px 30px;
+}
+
+.play-btn {
+  display: inline-block;
+  border: 1.5px solid #ff7a00;
+  width: 200px;
+  height: 61px;
+  clip-path: polygon(13% 0, 100% 0, 100% 63%, 87% 100%, 0 100%, 0 32%);
+  position: relative;
+}
+
+.play-btn img {
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  width: 18px;
+}
+
+.triangle-icon {
+  right: 4px !important;
+  top: 4px !important;
+}
+
+.play-btn::before {
+  content: "";
+  width: 95px;
+  height: 2px;
+  position: absolute;
+  background-color: #ff7a00;
+  display: block;
+  left: -38px;
+  rotate: 143deg;
+  top: 10px;
+}
+
+.play-btn::after {
+  content: "";
+  width: 89px;
+  height: 2px;
+  position: absolute;
+  background-color: #ff7a00;
+  display: block;
+  right: -25px;
+  rotate: 139deg;
+  bottom: 3px;
+}
+
+.play {
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+  background-color: transparent;
+  color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-weight: 600;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+}
+
+.play-btn-container {
+  position: relative;
+  display: inline-block;
+}
+
+.top-left-icon {
+  border-left: #ff7a00 1.5px solid;
+  border-top: #ff7a00 1.5px solid;
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 15px;
+  top: -1px;
+}
+
+.bottom-right-icon {
+  border-left: #ff7a00 1.5px solid;
+  border-top: #ff7a00 1.5px solid;
+  position: absolute;
+  display: block;
+  width: 18px;
+  height: 15px;
+  right: -0.5px;
+  bottom: 6px;
+  rotate: 180deg;
+}
+
+.play-btn:hover {
+  background-color: #c9670c;
+  transition: all 0.3s;
+}
+
+/* 2nd button */
+.play-btn-ii {
+  background-color: #ff7a00;
+  transition: all 0.3s;
+}
+
+.play-btn-ii:hover {
+  background-color: #c9670c;
+}

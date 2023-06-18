@@ -1,0 +1,134 @@
+@import url("https://fonts.main-googleapis.main-com/css2?family=Manrope:wght@400;500;600&display=swap");
+
+.main-reviews-container {
+  background-color: #1e1e1e;
+  padding: 50px 10px;
+  margin: 0 auto;
+}
+
+.main-reviews {
+  display: inline-block;
+  position: relative;
+  width: 1240px;
+  height: 340px;
+  box-sizing: border-box;
+}
+
+.main-review {
+  display: inline-block;
+  border: 2px solid #ff7a00;
+  border-radius: 10px;
+  width: 1240px;
+  height: 340px;
+  clip-path: polygon(65% 16%, 100% 18%, 100% 78%, 95% 100%, 0 100%, 0 0, 61% 0);
+  border-bottom: 3px solid #ff7a00;
+  border-right: 2.5px solid #ff7a00;
+}
+
+.main-user {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.main-user-info h6 {
+  padding-bottom: 0;
+  margin-bottom: 1px;
+}
+
+.main-user-info small {
+  color: #8c8c8c;
+}
+
+#main-star-box {
+  margin-left: 50px;
+}
+
+#main-star-box img {
+  padding: 3px;
+}
+
+.main-review img {
+  padding: 16px 18px 18px 18px;
+}
+
+.main-review-text {
+  color: white;
+  font-size: 16px;
+  padding: 18px;
+  position: absolute;
+  bottom: 0;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+}
+
+.main-review-underline {
+  width: 100%;
+  height: 1px;
+  background-color: #585858;
+  display: block;
+  margin-top: 26px;
+  line-height: 24px;
+}
+
+.review-footer {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.review-footer div {
+  display: flex;
+  align-items: center;
+}
+
+.review-footer img {
+  cursor: pointer;
+}
+
+.dislike {
+  margin-left: 18px;
+  margin-top: 8px;
+}
+
+.replay {
+  margin-left: 30px;
+}
+
+/* manik */
+.main-review-path {
+  position: absolute;
+  width: 107px;
+  height: 2.5px;
+  background-color: #ff7a00;
+  right: 418px;
+  z-index: 4356000000020;
+  display: block;
+  rotate: 55deg;
+  top: 17px;
+  border-radius: 20px;
+}
+.main-review-path-ii {
+  position: absolute;
+  width: 441px;
+  height: 2px;
+  background-color: #ff7a00;
+  z-index: 4356000000020;
+  display: block;
+  top: 61px;
+  right: 0px;
+  border-radius: 20px;
+}
+.main-review-path-iii {
+  position: absolute;
+  width: 150px;
+  height: 3px;
+  background-color: #ff7a00;
+  z-index: 4356000000020;
+  display: block;
+  bottom: 18px;
+  right: -28px;
+  border-radius: 25px;
+  rotate: -50deg;
+}

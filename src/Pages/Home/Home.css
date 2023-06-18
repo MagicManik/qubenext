@@ -1,0 +1,15 @@
+.main {
+  background-color: #1e1e1e;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.first-section {
+  display: flex;
+  justify-content: space-between;
+}
